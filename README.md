@@ -1,9 +1,9 @@
-# Exploratory-Data-Analysis-on-Airbnb-Dataset-
+# Exploratory-Data-Analysis-on-Airbnb-Booking-Dataset-
 ![image](https://github.com/RishikaB-05/Exploratory-Data-Analysis-on-Airbnb-Dataset-/assets/157221360/50e56131-5ce4-4ab0-b437-25a681ea1fec)
 
 # About Airbnb -
 Airbnb, Inc., based in San Francisco, California, operates an online marketplace focused on short-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.
-# Business Context
+# Business Context -
 Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. Today, Airbnb has become one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data — data that can be analyzed and used for security, business decisions, understanding of customers’ and providers’ (hosts) behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services, and much more.
 This dataset has around 49,000 observations in it with 16 columns and it is a mix of categorical and numeric values. Let’s Explore and analyze the data to discover key understandings.
 # Project Architecture
@@ -23,7 +23,7 @@ Through this process, we were able to uncover trends and relationships in the da
 
 The observations and insights we identified through this process will be useful for future analysis and decision-making related to Airbnb. and also Our analysis provides useful information for travelers and hosts in the city.
 
-# UNDERSTANDING THE GIVEN VARIABLES
+# UNDERSTANDING THE GIVEN VARIABLES -
 Listing_id :- This is a unique identifier for each listing in the dataset.
 Listing_name :- This is the name or title of the listing, as it appears on the Airbnb website.
 Host_id :- This is a unique identifier for each host in the dataset.
@@ -51,7 +51,7 @@ The describe( ) method returns a description of the data in the DataFrame. If th
  std — The standard deviation.
  Cleaning the Null Values -
 Either we can drop the null values or we can fill it as per the requirement I’m going to drop the ‘ID’ column as it’s not needed for this project and fill the rest of the columns column ‘name’, ‘host_name’, ‘last_review’, ‘reviews_per_month
-# Step 2: Asking Questions.
+# Step 2: Asking Questions -
 1. What are the most popular neighborhoods for Airbnb rentals in New York City? How do prices and availability vary by neighborhood?
 2. How has the Airbnb market in New York City changed over time? Have there been any significant trends in terms of the number of listings, prices, or occupancy rates?
 3. Are there any patterns or trends in terms of the types of properties that are being rented out on Airbnb in New York City? Are certain types of properties more popular or more expensive than others?
@@ -64,6 +64,6 @@ Either we can drop the null values or we can fill it as per the requirement I’
 10. Find the Best location listing/property location for travelers.
 11. Find the best location listing/property location for Hosts.
 12. Find Price variations in NYC Neighborhood groups.
-# Conclusion :
+# Conclusion -
 Through this exploratory data analysis and visualization, we gained several interesting insights into the Airbnb rental market. This Airbnb dataset for the 2019 year appeared to be a very rich dataset with a variety of columns that allowed us to do deep data exploration on each significant column presented. We proceeded with Questions and Scenarios like which ‘neighbourhood_group’ has the highest number of Airbnb’s and what areas were more popular than another, their price variations, and their availability as per room types. Also, we emphasized on key findings which host has the highest bookings and reviews. Also, we emphasized on Which neighborhoods to stay in if I’m low on cash in that also how we can stay in luxury properties. Next, we made good use of latitude and longitude columns to create a geographical heatmap color-coded by the price of listings
 I have used Seaborn, matplotlib, and Plotly Express to create all the visualizations. This is just a glimpse of EDA on the Airbnb dataset and there are no predictions involved.
