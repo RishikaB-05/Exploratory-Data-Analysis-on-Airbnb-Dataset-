@@ -9,6 +9,37 @@ This dataset has around 49,000 observations in it with 16 columns and it is a mi
 # Project Architecture
 ![image](https://github.com/RishikaB-05/Exploratory-Data-Analysis-on-Airbnb-Dataset-/assets/157221360/fafdbc56-cff1-4647-99d4-c9fb22af6b95)
 
+# Project Summary -
+The purpose of the analysis: understanding the factors that influence Airbnb prices in New York City, or identifying patterns of all variables and Our analysis provides useful information for travelers and hosts in the city and also provides some best insights for Airbnb business.
+This project involved exploring and cleaning a dataset to prepare it for analysis. The data exploration process involved identifying and understanding the characteristics of the data, such as the data types, missing values, and distributions of values. The data cleaning process involved identifying and addressing any issues or inconsistencies in the data, such as errors, missing values, or duplicate records and remove outliers.
+
+Through this process, we were able to identify and fix any issues with the data, and ensure that it was ready for further analysis. This is an important step in any data analysis project, as it allows us to work with high-quality data and avoid any potential biases or errors that could affect the results. The clean and prepared data can now be used to answer specific research.
+
+Once the data has been cleaned and prepared, now begin exploring and summarizing it with describe the data and creating visualizations, and identifying patterns and trends in the data. in explore the data, may develop the relationships between different variables or the underlying causes of certain patterns or trends and other methods.
+
+using data visualization to explore and understand patterns in Airbnb data. We created various graphs and charts to visualize the data, and wrote observations and insights below each one to help us better understand the data and identify useful insights and patterns.
+
+Through this process, we were able to uncover trends and relationships in the data that would have been difficult to identify through raw data alone, for example factors affecting prices and availability. We found that minimum nights, number of reviews, and host listing count are important for determining prices, and that availability varies significantly across neighborhoods. Our analysis provides useful information for travelers and hosts in the city.
+
+The observations and insights we identified through this process will be useful for future analysis and decision-making related to Airbnb. and also Our analysis provides useful information for travelers and hosts in the city.
+
+# UNDERSTANDING THE GIVEN VARIABLES
+Listing_id :- This is a unique identifier for each listing in the dataset.
+Listing_name :- This is the name or title of the listing, as it appears on the Airbnb website.
+Host_id :- This is a unique identifier for each host in the dataset.
+Host_name :- This is the name of the host as it appears on the Airbnb website.
+Neighbourhood_group :- This is a grouping of neighborhoods in New York City, such as Manhattan or Brooklyn.
+Neighbourhood :- This is the specific neighborhood in which the listing is located.
+Latitude :- This is the geographic latitude of the listing.
+Longitude :- This is the geographic longitude of the listing.
+Room_type :- This is the type of room or property being offered, such as an entire home, private room, or shared room.
+Price :- This is the nightly price for the listing, in US dollars.
+Minimum_nights :- This is the minimum number of nights that a guest must stay at the listing.
+Total_reviews :- This is the total number of reviews that the listing has received.
+Reviews_per_month :- This is the average number of reviews that the listing receives per month.
+Host_listings_count :- This is the total number of listings that the host has on Airbnb.
+Availability_365 :- This is the number of days in the next 365 days that the listing is available for booking.
+
 # Step -1: Basic Dataset Understanding -
 This dataset has around 48,895 observations with 16 columns and it is a mix between categorical and numeric values.
 The info( ) method prints information about the data frame.
