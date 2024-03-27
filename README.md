@@ -1,5 +1,7 @@
-# Exploratory-Data-Analysis-on-Airbnb-Booking-Dataset-
-![image](https://github.com/RishikaB-05/Exploratory-Data-Analysis-on-Airbnb-Dataset-/assets/157221360/50e56131-5ce4-4ab0-b437-25a681ea1fec)
+## Hi, I'm **Rishika!** 👋
+I have added a brief Analysis of **Airbnb Booking Dataset** using Pandas.
+Have a look.
+![image](https://github.com/RishikaB-05/Exploratory-Data-Analysis-on-Airbnb-Dataset-/assets/157221360/105b9ec7-a8e4-4a8e-b74c-29051d890164)
 
 # About Airbnb -
 Airbnb, Inc., based in San Francisco, California, operates an online marketplace focused on short-term homestays and experiences. The company acts as a broker and charges a commission from each booking. The company was founded in 2008 by Brian Chesky, Nathan Blecharczyk, and Joe Gebbia.
